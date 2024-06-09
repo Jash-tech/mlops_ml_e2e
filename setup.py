@@ -19,7 +19,7 @@ def get_requirements(filepath:str)->List[str]:
 
 setup(
     name='GemStonePrediction',
-    version='0.0.1',
+    version='0.0.2',
     author='jash suke',
     author_email='jashsuke@gmail.com',
     install_requires=get_requirements('requirements_dev.txt'),

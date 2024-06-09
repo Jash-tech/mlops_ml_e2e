@@ -9,14 +9,14 @@ from src.utils import save_object,evaluate_model
 
 
 @dataclass 
-class ModelTrainerConfig:
+class ModelTrainingConfig:
     trained_model_file_path = os.path.join('artifacts','model.pkl')
 
 class ModelTrainer:
     def __init__(self):
-        self.model_trainer_config = ModelTrainerConfig()
+        self.model_trainer_config = ModelTrainingConfig()
     
-    def initate_model_training(self,train_array,test_array):
+    def initiate_model_training(self,train_array,test_array):
         try:
 
             logging.info('Splitting Dependent and Independent variables from train and test data')

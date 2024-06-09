@@ -4,8 +4,6 @@ import pandas as pd
 import numpy as np
 from src.logger import logging
 from src.exception import CustomException
-from src.components.data_ingestion import DataIngestion
-from src.components.model_training import ModelTrainer,ModelTrainingConfig
 from src.utils import save_object,evaluate_model
 from dataclasses import dataclass
 from pathlib import Path
