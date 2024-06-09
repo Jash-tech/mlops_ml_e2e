@@ -5,7 +5,8 @@ import numpy as np
 from src.logger import logging
 from src.exception import CustomException
 from src.components.data_ingestion import DataIngestion
-from src.utils import save_object
+from src.components.model_training import ModelTrainer,ModelTrainingConfig
+from src.utils import save_object,evaluate_model
 from dataclasses import dataclass
 from pathlib import Path
 from sklearn.impute import SimpleImputer ## HAndling Missing Values
@@ -113,4 +114,7 @@ class DataTransformation:
 #     a=DataIngestion()
 #     train_path,test_path=a.initiate_dataingestion()
 #     b=DataTransformation()
-#     b.initiate_datatransformation(train_path,test_path)
+#     tr,tst=b.initiate_datatransformation(train_path,test_path)
+#     dd=ModelTrainer()
+#     dd.initate_model_training(tr,tst)
+
