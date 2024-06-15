@@ -26,9 +26,12 @@ class ModelTrainer:
                 test_array[:,:-1],
                 test_array[:,-1]
                  )
+            alpha=0.8
+            
+            
 
             models={
-            'Elasticnet':ElasticNet()
+            'Elasticnet':ElasticNet(alpha=alpha, random_state=42)
              }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)

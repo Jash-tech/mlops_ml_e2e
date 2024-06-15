@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/LENOVO/Downloads/Ineuron/mlopse2e/mlruns/0/0bc9ebd217f94185a8c39401e4d085b4/artifacts
+end_time: 1717954824300
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0bc9ebd217f94185a8c39401e4d085b4
+run_name: wise-bird-422
+run_uuid: 0bc9ebd217f94185a8c39401e4d085b4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717954818614
+status: 3
+tags: []
+user_id: LENOVO

@@ -13,6 +13,8 @@ from sklearn.preprocessing import OrdinalEncoder # Ordinal Encoding
 ## pipelines
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
+from src.components.data_ingestion import DataIngestion
+from src.components.model_training import ModelTrainer
 
 @dataclass
 class DataTransformationConfig:
@@ -114,5 +116,5 @@ class DataTransformation:
 #     b=DataTransformation()
 #     tr,tst=b.initiate_datatransformation(train_path,test_path)
 #     dd=ModelTrainer()
-#     dd.initate_model_training(tr,tst)
+#     dd.initiate_model_training(tr,tst)
 
