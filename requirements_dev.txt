@@ -1,12 +1,14 @@
-pandas
+pandas==1.5.3
 scikit-learn
-numpy
-seaborn 
-flask
+numpy==1.24.2
+seaborn==0.12.2
+Flask
 mlflow==2.13.2
 dvc== 3.51.2
-ipykernel
-xgboost
+# Werkzeug==0.16.1
+# Jinja2==3.0.3
+# ipykernel
+# xgboost
 
 # dev requirements -
 
